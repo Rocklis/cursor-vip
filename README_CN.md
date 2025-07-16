@@ -22,11 +22,11 @@
 
 方式1：通过 Gitee 脚本
 ```bash
-bash <(curl -Lk https://gitee.com/kingparks/cursor-vip/releases/download/latest/ic.sh) githubReadme
+bash <(curl -Lk https://gitee.com/kingparks/cursor-vip/releases/download/latest/ic.sh) 65fb97dd35d04eaeb25708b8e7470a75
 ```
 方式2：通过 GitHub 脚本
 ```bash
-bash <(curl -Lk https://github.com/kingparks/cursor-vip/releases/download/latest/i.sh) githubReadme
+bash <(curl -Lk https://github.com/kingparks/cursor-vip/releases/download/latest/i.sh) 65fb97dd35d04eaeb25708b8e7470a75
 ```
 方式3：手动下载二进制文件
 > 从 [release](https://github.com/kingparks/cursor-vip/releases) 页下载对应操作系统的二进制文件
@@ -34,7 +34,7 @@ bash <(curl -Lk https://github.com/kingparks/cursor-vip/releases/download/latest
 # MaxOS/Linux (linux 二进制安装还需额外执行 i.sh 的内容)
 sudo mv cursor-vip_xx_xxx /usr/local/bin/cursor-vip;
 chmod +x /usr/local/bin/cursor-vip;
-cursor-vip githubReadme;
+cursor-vip 65fb97dd35d04eaeb25708b8e7470a75;
 # Windows
 # 双击 cursor-vip_xx_xxx.exe
 ```
